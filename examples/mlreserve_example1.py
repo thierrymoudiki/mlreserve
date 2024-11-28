@@ -19,6 +19,12 @@ auto = Triangle(
         cumulative=cumulative,
     )
 
+print('df.head()', df.head())
+
+print('df.tail()', df.tail())
+
+print("auto", auto)
+
 dev = mr.MLReserve(regr=TweedieRegressor,
     design_matrix='C(development) + C(origin)').fit(auto)
 
