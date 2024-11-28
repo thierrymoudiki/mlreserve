@@ -81,7 +81,7 @@ autosummary_generate = True
 nbsphinx_kernel_name = "cl_docs"
 
 
-import chainladder as cl
+import mlreserve as cl
 
 version = cl.__version__
 release = cl.__version__

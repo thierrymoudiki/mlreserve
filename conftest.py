@@ -1,5 +1,5 @@
 import pytest
-import chainladder as cl
+import mlreserve as cl
 
 
 def pytest_generate_tests(metafunc):

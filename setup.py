@@ -8,21 +8,18 @@ from os import listdir
 with open('requirements.txt', 'r') as f:
     dependencies = f.read().splitlines()
 
-with open("README.rst") as f:
-    long_desc = f.read()
-
-descr = "Chainladder Package - P&C Loss Reserving package "
-name = 'chainladder'
-url = 'https://github.com/casact/chainladder-python'
-version='0.8.23' # Put this in __init__.py
+descr = "mlreserve Package - Claims Reserving package "
+name = 'mlreserve'
+url = 'https://github.com/thierrymoudiki/mlreserve'
+version='0.1.0' # Put this in __init__.py
 
 data_path = ''
 setup(
     name=name,
     version=version,
-    maintainer='John Bogaardt',
-    maintainer_email='jbogaardt@gmail.com',
-    packages=find_packages(include=["chainladder", "chainladder.*"]),
+    maintainer='T. Moudiki',
+    maintainer_email='thierry.moudiki@gmail.com',
+    packages=find_packages(include=["mlreserve", "mlreserve.*"]),
     scripts=[],
     url=url,
     download_url='{}/archive/v{}.tar.gz'.format(url, version),
@@ -30,8 +27,8 @@ setup(
     include_package_data=True,
     package_data={
         'data': [data_path + item
-                 for item in listdir('chainladder{}'.format(data_path))]},
+                 for item in listdir('mlreserve{}'.format(data_path))]},
     description=descr,
-    long_description=long_desc,
+    long_description="Machine Learning Reserving",
     install_requires=dependencies,
 )

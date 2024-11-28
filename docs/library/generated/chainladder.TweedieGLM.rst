@@ -1,6 +1,6 @@
-﻿chainladder.TweedieGLM
+﻿chainladder.MLReserve
 ======================
 
 .. currentmodule:: chainladder
 
-.. autoclass:: TweedieGLM
+.. autoclass:: MLReserve

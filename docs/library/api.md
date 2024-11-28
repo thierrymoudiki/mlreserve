@@ -51,7 +51,7 @@ Classes
   IncrementalAdditive
   ClarkLDF
   CaseOutstanding
-  TweedieGLM
+  MLReserve
   DevelopmentML
   BarnettZehnwirth
 

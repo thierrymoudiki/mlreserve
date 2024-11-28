@@ -298,7 +298,7 @@ Release Date: Feb 28, 2021
 - Included a `truncation_age` in the `TailClark` estimator to
   replicate examples from the paper
 - [\#129](https://github.com/casact/chainladder-python/issues/129)
-  Included new development estimators `TweedieGLM` and `DevelopmentML`
+  Included new development estimators `MLReserve` and `DevelopmentML`
   to take advantage of a broader set of (sklearn-compliant) regression
   frameworks.
 - Included a helper Transformer `PatsyFormula` to make working with ML

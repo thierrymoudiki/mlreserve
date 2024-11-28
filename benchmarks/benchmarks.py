@@ -1,6 +1,6 @@
 # Write the benchmarking functions here.
 # See "Writing benchmarks" in the asv docs for more information.
-import chainladder as cl
+import mlreserve as cl
 
 class TimeSuite:
     def setup(self):

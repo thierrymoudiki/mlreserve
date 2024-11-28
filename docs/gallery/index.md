@@ -331,10 +331,10 @@ alt: TailCurve Extrapolation
 :columns: 4
 :link: plot_glm_ldf
 :link-type: doc
-**TweedieGLM Basics**
+**MLReserve Basics**
 ```{image} ../images/plot_glm_ldf.png
 ---
-alt: TweedieGLM Basics
+alt: MLReserve Basics
 ---
 ```
 +++
