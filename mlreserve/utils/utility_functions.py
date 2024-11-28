@@ -29,7 +29,7 @@ def load_sample(key: str, *args, **kwargs):
 
     """
     from mlreserve import Triangle
-
+    print("key", key)
     path = os.path.dirname(os.path.abspath(__file__))
     print("path", path)
     origin = "origin"
